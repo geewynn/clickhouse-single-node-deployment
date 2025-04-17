@@ -1,0 +1,10 @@
+hcloud_token=""
+sshkey_file = ""
+sshkey_private_file = ""
+server_name = ""
+server_type = ""
+image_type = ""
+source_ips = [
+      
+    ]
+node_user=""
