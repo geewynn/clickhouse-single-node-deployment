@@ -38,3 +38,14 @@ Note: copy `terraform.tfvars.template` to `terraform.tfvars` and configure to yo
 3. Add if-else statement to the script to check if the service is running.
 4. Implement env for the script
 5. add custom config (config.xml) and prometheus.yml to the scripts.
+
+### Configure Clickhouse
+To configure clickhouse for logging, we edit the config.xml file in the config.d directory. This can be found under `/etc/clickhouse-server/config.d/` path
+
+A sample config.xml file can be found in the `configs` directory under this repository.
+
+
+### Configure Prometheus
+To configure prometheus, you need to edit the prometheus.yml file under the `/etc/prometheus/prometheus.yml`.
+
+A sample config can be found under the `configs` directory in this repo
